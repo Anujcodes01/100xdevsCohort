@@ -10,7 +10,7 @@
 // let data = "this is the updated text"
 // fs.writeFile('a.txt',data,(err)=>{
 //     if (err) throw err;
-//     console.log('sucessfully updated the text file')
+//     console.log('successfully updated the text file')
 
 
 // })
@@ -23,7 +23,7 @@ const fs = require('fs');
 let data = " now we are using append functtion"
 fs.appendFile('a.txt',data,(err)=>{
     if (err) throw err;
-    console.log('sucessfully updated the text file using append')
+    console.log('successfully updated the text file using append')
 
 
 })
